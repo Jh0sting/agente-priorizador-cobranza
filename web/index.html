@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Priorizador de cobranza</title>
+  <meta name="description" content="Panel para gestores de Recuperaciones: a quién contactar primero, qué ofrecer y cómo decirlo. Datos ficticios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aviso">Demo con <strong>datos ficticios</strong>. Ningún nombre ni crédito corresponde a personas o entidades reales.</div>
+
+  <header class="encabezado">
+    <div class="contenedor encabezado__fila">
+      <div>
+        <p class="eyebrow">Recuperaciones · Panel del gestor</p>
+        <h1>Priorizador de cartera morosa</h1>
+        <p class="bajada">A quién contactar primero, qué ofrecerle y cómo decírselo.</p>
+      </div>
+      <a class="boton boton--fantasma" href="https://github.com/Jh0sting/agente-priorizador-cobranza" target="_blank" rel="noopener">Ver código</a>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="kpis" id="kpis" aria-label="Resumen de la cartera"></section>
+
+    <section class="panel" aria-labelledby="titulo-tramos">
+      <div class="panel__cabecera">
+        <h2 id="titulo-tramos">Saldo por tramo de mora</h2>
+        <p class="nota">Toca un tramo para filtrar el ranking.</p>
+      </div>
+      <div class="tramos" id="tramos"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="titulo-ranking">
+      <div class="panel__cabecera">
+        <h2 id="titulo-ranking">¿A quién contacto primero?</h2>
+        <p class="nota" id="conteo"></p>
+      </div>
+
+      <div class="filtros">
+        <label class="campo campo--buscar">
+          <span>Buscar</span>
+          <input type="search" id="buscar" placeholder="Cliente o código de crédito">
+        </label>
+        <label class="campo">
+          <span>Tramo</span>
+          <select id="f-tramo"><option value="">Todos</option></select>
+        </label>
+        <label class="campo">
+          <span>Distrito</span>
+          <select id="f-distrito"><option value="">Todos</option></select>
+        </label>
+        <label class="campo">
+          <span>Producto</span>
+          <select id="f-producto"><option value="">Todos</option></select>
+        </label>
+        <button class="boton boton--texto" id="limpiar" type="button">Limpiar</button>
+      </div>
+
+      <div class="tabla-envoltura">
+        <table class="tabla">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Cliente</th>
+              <th>Tramo</th>
+              <th class="num">Días</th>
+              <th class="num">Saldo</th>
+              <th>Prioridad</th>
+              <th>Acción sugerida</th>
+            </tr>
+          </thead>
+          <tbody id="ranking"></tbody>
+        </table>
+      </div>
+      <button class="boton boton--secundario mas" id="ver-mas" type="button">Ver 20 más</button>
+    </section>
+
+    <section class="panel metodo" aria-labelledby="titulo-metodo">
+      <h2 id="titulo-metodo">Cómo se calcula la prioridad</h2>
+      <p>Prioridad (0 a 100) = <strong>35% urgencia</strong> + <strong>35% recuperabilidad</strong> + <strong>30% exposición</strong>. El cálculo es determinista y auditable: no lo hace la IA.</p>
+      <div class="metodo__grid">
+        <div><h3>Urgencia</h3><p>Sube a 100 cuando faltan 5 días o menos para que el crédito pase al siguiente tramo de mora.</p></div>
+        <div><h3>Recuperabilidad</h3><p>Pagos puntuales en 12 meses, promesas incumplidas, días de atraso y si tiene garantía.</p></div>
+        <div><h3>Exposición</h3><p>Saldo de capital en riesgo, en escala logarítmica respecto del mayor saldo de la cartera.</p></div>
+      </div>
+      <p class="nota">Si el cliente fue contactado hace menos de 3 días, la prioridad baja un 40% para no insistir de más. El agente de IA (Google ADK + Gemini) que conversa con el gestor y redacta mensajes personalizados se ejecuta localmente; ver el README.</p>
+    </section>
+  </main>
+
+  <footer class="pie contenedor">
+    <span>Hecho por <a href="https://github.com/Jh0sting" target="_blank" rel="noopener">Jh0sting</a> · Python, Google ADK y Gemini</span>
+    <span id="generado"></span>
+  </footer>
+
+  <dialog class="detalle" id="detalle" aria-labelledby="detalle-titulo">
+    <div class="detalle__contenido" id="detalle-contenido"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

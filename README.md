@@ -8,6 +8,8 @@ Asistente para gestores del área de **Recuperaciones (cobranza)** de una caja m
 
 Combina un **puntaje determinista y explicable** (Python puro, sin IA) con **agentes de IA** construidos con Google Agent Development Kit (ADK) y **Gemini**.
 
+**🔗 Demo en vivo: https://jh0sting.github.io/agente-priorizador-cobranza/**
+
 > ⚠️ Todos los datos son **ficticios**, generados con `data/generar_cartera.py`. No se usan datos reales de clientes ni de ninguna entidad financiera.
 
 ## Arquitectura
@@ -104,7 +106,18 @@ Ejemplo de salida:
                · Cuenta con garantía
 ```
 
-### 2. Agente de IA
+### 2. Panel web
+
+El panel muestra el resumen por tramo, el ranking con filtros, el desglose del puntaje de cada crédito y una plantilla de mensaje o guion lista para copiar. Es estático: el ranking se calcula en Python y se exporta a `web/datos.json`, así que no necesita servidor ni llave de API.
+
+```bash
+python scripts/exportar_panel.py
+python -m http.server 8000 --directory web   # abre http://localhost:8000
+```
+
+Cada push a `main` lo vuelve a publicar en GitHub Pages con `.github/workflows/pages.yml`.
+
+### 3. Agente de IA
 
 ```bash
 adk web      # interfaz de desarrollo en http://localhost:8000, elige "agente_cobranza"
@@ -119,7 +132,7 @@ Preguntas de ejemplo:
 - «Redacta el mensaje de WhatsApp para el crédito CR-00139.»
 - «Prepárame el guion de llamada para CR-00024.»
 
-### 3. Regenerar los datos ficticios
+### 4. Regenerar los datos ficticios
 
 ```bash
 python data/generar_cartera.py --n 500 --semilla 7
@@ -142,6 +155,9 @@ agente_cobranza/
 data/
   generar_cartera.py   # Generador de cartera ficticia
   cartera_ficticia.csv # 200 créditos ficticios
+scripts/
+  exportar_panel.py # Exporta el ranking a web/datos.json
+web/                # Panel web estático (GitHub Pages)
 cli.py              # Ranking en consola
 tests/              # Pruebas unitarias del puntaje
 ```
@@ -154,4 +170,5 @@ El redactor de mensajes tiene reglas explícitas: tono cordial, sin amenazas ni 
 
 - Calibrar pesos con datos históricos de recuperación (o reemplazar la recuperabilidad por un modelo entrenado).
 - Enviar los recordatorios automáticamente por WhatsApp o Telegram con n8n y registrar las promesas de pago.
-- Panel web para que el jefe de Recuperaciones vea el avance de cada gestor.
+- Chat con el agente dentro del panel web (backend con FastAPI desplegado en Cloud Run).
+- Vista para el jefe de Recuperaciones con el avance de cada gestor.
