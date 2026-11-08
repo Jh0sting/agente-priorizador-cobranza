@@ -1,0 +1,201 @@
+id_credito,cliente,distrito,producto,monto_desembolsado,saldo_capital,cuota_mensual,dias_atraso,cuotas_vencidas,pagos_puntuales_12m,promesas_incumplidas,dias_desde_ultimo_contacto,canal_preferido,tiene_garantia
+CR-00001,Teresa Díaz Rodríguez,Trujillo,Crédito Mype,4400.0,3272.4,229.17,24,1,6,0,2,Llamada,si
+CR-00002,Teresa Ramírez Quispe,El Porvenir,Crédito Mype,35000.0,14454.49,1822.92,44,2,6,1,22,Visita,no
+CR-00003,José Gutiérrez Huamán,Florencia de Mora,Crédito Consumo,5100.0,1924.63,354.17,0,0,8,0,25,WhatsApp,no
+CR-00004,José Rojas Castillo,La Esperanza,Crédito Mype,58500.0,38966.8,3046.88,57,2,10,2,1,Llamada,no
+CR-00005,Jorge Gutiérrez Gutiérrez,Víctor Larco,Crédito Mype,51800.0,15547.11,2697.92,15,1,12,1,21,SMS,no
+CR-00006,Carmen Paredes Vásquez,Huanchaco,Crédito Mype,37700.0,30976.05,1963.54,36,2,9,1,26,WhatsApp,si
+CR-00007,Elena Castillo Morales,Moche,Crédito Mype,48900.0,31742.28,2546.88,0,0,12,0,28,Visita,si
+CR-00008,José Vásquez García,Chepén,Crédito Consumo,5700.0,3015.15,395.83,19,1,10,1,15,WhatsApp,no
+CR-00009,Patricia Huamán Cruz,Chepén,Crédito Mype,11700.0,9711.16,609.38,50,2,5,1,8,WhatsApp,no
+CR-00010,Miguel Díaz Mendoza,Laredo,Crédito Mype,41900.0,22930.71,2182.29,21,1,8,0,0,SMS,no
+CR-00011,Julio Castillo García,Huanchaco,Crédito Consumo,10600.0,9224.03,736.11,57,2,10,2,24,Llamada,no
+CR-00012,Pedro Rodríguez Vásquez,Pacasmayo,Crédito Mype,37100.0,21649.55,1932.29,0,0,10,0,30,WhatsApp,si
+CR-00013,Diego Mendoza Ramírez,Chepén,Crédito Prendario,6600.0,1428.98,1375.0,5,1,8,1,27,Visita,si
+CR-00014,César Gutiérrez Cruz,Chepén,Crédito Consumo,18600.0,7134.05,1291.67,53,2,7,1,14,WhatsApp,si
+CR-00015,Flor Rodríguez Vásquez,La Esperanza,Crédito Mype,22300.0,11345.54,1161.46,8,1,7,0,28,WhatsApp,no
+CR-00016,Pedro Morales Díaz,Víctor Larco,Crédito Mype,32300.0,23938.89,1682.29,18,1,8,1,3,WhatsApp,no
+CR-00017,Carlos Rodríguez Reyes,Huanchaco,Crédito Agrícola,13900.0,8336.27,1447.92,52,2,10,2,25,WhatsApp,si
+CR-00018,Sofía Paredes Sánchez,Trujillo,Crédito Consumo,11200.0,9462.47,777.78,15,1,8,0,20,WhatsApp,no
+CR-00019,Patricia Quispe Reyes,Florencia de Mora,Crédito Consumo,4200.0,2460.23,291.67,13,1,7,0,29,Visita,no
+CR-00020,Luis Chávez Rodríguez,Trujillo,Crédito Prendario,1700.0,1236.7,354.17,195,7,3,4,18,Visita,si
+CR-00021,César Vásquez Reyes,La Esperanza,Crédito Consumo,2100.0,1195.17,145.83,65,3,8,0,30,Llamada,no
+CR-00022,Lucía Chávez Vásquez,Florencia de Mora,Crédito Mype,38300.0,24342.76,1994.79,47,2,7,1,12,Llamada,no
+CR-00023,Rosa Paredes Castillo,Chepén,Crédito Agrícola,14800.0,3747.9,1541.67,122,5,4,0,8,Llamada,no
+CR-00024,Julio Alvarado Quispe,Chepén,Crédito Mype,53100.0,35728.58,2765.62,27,1,10,1,9,WhatsApp,no
+CR-00025,Julio Castillo Chávez,Víctor Larco,Crédito Consumo,6000.0,1696.29,416.67,35,2,8,1,21,SMS,no
+CR-00026,Luis Quispe Chávez,El Porvenir,Crédito Agrícola,27300.0,8611.03,2843.75,0,0,10,0,20,SMS,si
+CR-00027,María Paredes Rodríguez,Huanchaco,Crédito Prendario,4600.0,2894.48,958.33,0,0,12,0,18,Llamada,si
+CR-00028,Lucía Vásquez Sánchez,Huanchaco,Crédito Prendario,1500.0,1078.21,312.5,111,4,2,2,24,Visita,si
+CR-00029,Ana Mendoza Chávez,Moche,Crédito Consumo,18600.0,14367.51,1291.67,26,1,7,1,25,Llamada,no
+CR-00030,Miguel Vásquez Vásquez,Trujillo,Crédito Mype,24800.0,22839.72,1291.67,7,1,10,1,21,Llamada,no
+CR-00031,César Paredes Chávez,Trujillo,Crédito Agrícola,26200.0,5890.63,2729.17,21,1,10,1,3,SMS,si
+CR-00032,Julio Alvarado Sánchez,Moche,Crédito Agrícola,3100.0,1557.97,322.92,26,1,8,1,28,Llamada,no
+CR-00033,José Díaz Flores,Huanchaco,Crédito Prendario,500.0,127.91,104.17,24,1,11,0,19,SMS,si
+CR-00034,Flor Torres Paredes,El Porvenir,Crédito Mype,44000.0,31889.37,2291.67,14,1,9,1,6,Visita,no
+CR-00035,Miguel Torres Castillo,Moche,Crédito Prendario,5600.0,1528.22,1166.67,40,2,8,0,25,SMS,si
+CR-00036,César Flores Torres,Chepén,Crédito Prendario,3800.0,1684.46,791.67,26,1,11,0,21,SMS,si
+CR-00037,Ana Rodríguez Vásquez,Laredo,Crédito Mype,49700.0,19216.33,2588.54,38,2,7,0,19,WhatsApp,no
+CR-00038,Carlos Díaz Vásquez,El Porvenir,Crédito Consumo,14600.0,9665.44,1013.89,5,1,12,0,25,Visita,si
+CR-00039,Gloria Paredes Huamán,Huanchaco,Crédito Consumo,18400.0,15805.25,1277.78,0,0,12,0,30,Visita,no
+CR-00040,Carmen Vásquez Ramírez,Chepén,Crédito Prendario,6700.0,3611.94,1395.83,108,4,5,3,15,Llamada,si
+CR-00041,María García Vásquez,Moche,Crédito Agrícola,14300.0,5932.23,1489.58,11,1,9,0,22,Llamada,no
+CR-00042,Patricia Rojas Quispe,Pacasmayo,Crédito Mype,26600.0,18668.92,1385.42,2,1,8,1,12,Visita,si
+CR-00043,Víctor Vásquez Ramírez,Moche,Crédito Agrícola,10400.0,6838.1,1083.33,114,4,5,1,15,WhatsApp,no
+CR-00044,Patricia Rojas Rojas,Trujillo,Crédito Prendario,5900.0,1885.76,1229.17,100,4,6,0,2,Visita,si
+CR-00045,Elena Chávez Reyes,Florencia de Mora,Crédito Consumo,17500.0,14239.81,1215.28,11,1,8,1,24,Visita,no
+CR-00046,Milagros Flores Rodríguez,Trujillo,Crédito Mype,29800.0,11569.31,1552.08,0,0,9,0,30,Llamada,si
+CR-00047,Sofía Ramírez Gutiérrez,El Porvenir,Crédito Mype,38400.0,29609.91,2000.0,4,1,11,0,19,WhatsApp,no
+CR-00048,César Reyes Reyes,Víctor Larco,Crédito Consumo,19300.0,16770.27,1340.28,0,0,12,0,2,Llamada,si
+CR-00049,José Paredes Díaz,Huanchaco,Crédito Agrícola,25800.0,12892.04,2687.5,0,0,8,0,2,SMS,si
+CR-00050,María Díaz Mendoza,Chepén,Crédito Prendario,6700.0,5834.67,1395.83,202,7,0,5,30,SMS,si
+CR-00051,Carmen Cruz Vásquez,Laredo,Crédito Prendario,4000.0,1322.8,833.33,41,2,6,0,18,Visita,si
+CR-00052,Elena Ramírez Huamán,Florencia de Mora,Crédito Agrícola,2800.0,873.0,291.67,7,1,9,1,17,WhatsApp,no
+CR-00053,Milagros Morales Cruz,Trujillo,Crédito Consumo,2600.0,1065.85,180.56,25,1,7,1,2,SMS,si
+CR-00054,Hugo Paredes Chávez,Huanchaco,Crédito Consumo,6800.0,3494.07,472.22,17,1,9,1,22,Visita,no
+CR-00055,Lucía Castillo Morales,Florencia de Mora,Crédito Agrícola,8500.0,3476.81,885.42,24,1,10,0,23,SMS,no
+CR-00056,Carmen Rodríguez Rodríguez,Chepén,Crédito Consumo,6600.0,4483.64,458.33,23,1,10,0,9,Llamada,no
+CR-00057,Jorge Rodríguez Ramírez,Laredo,Crédito Prendario,1300.0,1223.04,270.83,16,1,10,1,3,WhatsApp,si
+CR-00058,Rosa Vásquez Sánchez,Chepén,Crédito Prendario,4200.0,2172.38,875.0,35,2,7,1,24,Visita,si
+CR-00059,Miguel Rojas Huamán,Trujillo,Crédito Consumo,15700.0,10436.05,1090.28,80,3,7,1,19,WhatsApp,no
+CR-00060,Diego Flores Mendoza,Trujillo,Crédito Consumo,12900.0,9694.55,895.83,0,0,9,0,13,Visita,no
+CR-00061,César Vásquez Ramírez,Pacasmayo,Crédito Prendario,2700.0,2096.26,562.5,53,2,8,0,21,Llamada,si
+CR-00062,Rosa Rodríguez Mendoza,Florencia de Mora,Crédito Prendario,1400.0,1093.95,291.67,0,0,9,0,19,SMS,si
+CR-00063,Sofía Flores Huamán,Trujillo,Crédito Prendario,1400.0,606.89,291.67,39,2,10,1,28,Visita,si
+CR-00064,César Ramírez Rojas,Trujillo,Crédito Agrícola,18900.0,17588.37,1968.75,22,1,10,0,24,Llamada,no
+CR-00065,Víctor Gutiérrez Díaz,Huanchaco,Crédito Prendario,7400.0,6022.74,1541.67,51,2,8,0,10,WhatsApp,si
+CR-00066,Sofía Flores Chávez,Florencia de Mora,Crédito Consumo,7300.0,3137.14,506.94,13,1,11,0,10,WhatsApp,no
+CR-00067,Raúl Rodríguez Castillo,Chepén,Crédito Prendario,7000.0,2319.13,1458.33,0,0,11,0,11,Visita,si
+CR-00068,Flor Morales Sánchez,Trujillo,Crédito Prendario,6200.0,4943.45,1291.67,30,1,8,1,20,Llamada,si
+CR-00069,Carlos García Morales,Florencia de Mora,Crédito Consumo,6900.0,6484.23,479.17,8,1,7,1,16,SMS,no
+CR-00070,Rosa Ramírez Díaz,Huanchaco,Crédito Prendario,7900.0,6060.89,1645.83,43,2,6,0,29,SMS,si
+CR-00071,Sofía Paredes Morales,Huanchaco,Crédito Mype,19100.0,13868.19,994.79,52,2,8,0,10,Visita,no
+CR-00072,Luis Chávez Morales,Moche,Crédito Agrícola,26300.0,5639.22,2739.58,13,1,8,1,12,Llamada,no
+CR-00073,Gloria Cruz Quispe,El Porvenir,Crédito Mype,10200.0,2305.05,531.25,4,1,10,0,13,Llamada,si
+CR-00074,Diego Reyes Chávez,Laredo,Crédito Agrícola,11500.0,4950.42,1197.92,58,2,7,2,27,WhatsApp,no
+CR-00075,Carlos Sánchez Cruz,El Porvenir,Crédito Consumo,13000.0,3370.94,902.78,216,8,0,3,22,SMS,no
+CR-00076,Gloria Díaz Rojas,El Porvenir,Crédito Mype,21500.0,19520.08,1119.79,14,1,8,0,5,Llamada,si
+CR-00077,Milagros Ramírez Cruz,Florencia de Mora,Crédito Prendario,5100.0,3923.83,1062.5,70,3,5,1,21,WhatsApp,si
+CR-00078,Milagros Díaz Ramírez,Laredo,Crédito Prendario,7300.0,3225.08,1520.83,15,1,9,1,27,SMS,si
+CR-00079,José Rojas Torres,Florencia de Mora,Crédito Consumo,20000.0,6199.97,1388.89,0,0,12,0,0,Visita,no
+CR-00080,Julio Gutiérrez Vásquez,Víctor Larco,Crédito Mype,54900.0,21472.54,2859.38,118,4,4,1,19,SMS,no
+CR-00081,Teresa Gutiérrez García,La Esperanza,Crédito Consumo,12900.0,3514.57,895.83,40,2,8,0,29,SMS,no
+CR-00082,Jorge Ramírez Morales,Florencia de Mora,Crédito Prendario,1800.0,1531.58,375.0,12,1,11,1,23,SMS,si
+CR-00083,Diego Gutiérrez Flores,Moche,Crédito Mype,29700.0,26537.71,1546.88,38,2,11,1,0,SMS,no
+CR-00084,Carlos Vásquez Morales,Trujillo,Crédito Prendario,3300.0,1281.2,687.5,13,1,12,1,19,SMS,si
+CR-00085,Carlos García Rodríguez,Trujillo,Crédito Consumo,13300.0,6296.85,923.61,23,1,8,1,9,Visita,si
+CR-00086,Teresa García Díaz,La Esperanza,Crédito Consumo,17900.0,15183.71,1243.06,22,1,11,1,26,Visita,no
+CR-00087,César Gutiérrez Paredes,Huanchaco,Crédito Agrícola,2900.0,1949.1,302.08,8,1,9,0,1,Visita,no
+CR-00088,Milagros Huamán Quispe,Trujillo,Crédito Mype,57100.0,18949.02,2973.96,0,0,12,0,25,SMS,si
+CR-00089,Pedro Chávez García,Pacasmayo,Crédito Consumo,16000.0,12737.53,1111.11,96,4,4,1,0,SMS,no
+CR-00090,María Quispe Gutiérrez,Víctor Larco,Crédito Consumo,19800.0,10787.8,1375.0,68,3,9,0,18,SMS,si
+CR-00091,Sofía Gutiérrez Alvarado,Pacasmayo,Crédito Agrícola,3500.0,1377.99,364.58,24,1,6,1,3,Visita,no
+CR-00092,Luis Morales Reyes,Moche,Crédito Mype,44500.0,11945.41,2317.71,40,2,8,0,21,WhatsApp,no
+CR-00093,Julio Rojas Paredes,Huanchaco,Crédito Prendario,1100.0,978.35,229.17,33,2,7,1,12,SMS,si
+CR-00094,Diego Castillo Díaz,Laredo,Crédito Prendario,4300.0,2697.61,895.83,68,3,9,2,28,Llamada,si
+CR-00095,Elena Ramírez Gutiérrez,El Porvenir,Crédito Prendario,3000.0,1829.63,625.0,4,1,9,1,21,Visita,si
+CR-00096,María Paredes Rodríguez,Pacasmayo,Crédito Mype,8200.0,7265.01,427.08,24,1,11,1,30,SMS,no
+CR-00097,Miguel Huamán Torres,Huanchaco,Crédito Prendario,3200.0,1443.18,666.67,58,2,10,0,3,Llamada,si
+CR-00098,Carlos Ramírez Rojas,Víctor Larco,Crédito Consumo,13500.0,10554.52,937.5,0,0,10,0,25,Visita,no
+CR-00099,Flor Torres Chávez,Huanchaco,Crédito Mype,37700.0,17214.82,1963.54,31,2,7,1,0,Llamada,no
+CR-00100,Patricia Díaz Cruz,Huanchaco,Crédito Prendario,1000.0,394.27,208.33,132,5,6,1,5,SMS,si
+CR-00101,Jorge Huamán Rodríguez,La Esperanza,Crédito Agrícola,22200.0,8155.69,2312.5,33,2,6,0,8,Visita,no
+CR-00102,Raúl Sánchez Torres,Pacasmayo,Crédito Prendario,5100.0,3260.75,1062.5,17,1,7,1,15,SMS,si
+CR-00103,Lucía García Ramírez,Florencia de Mora,Crédito Mype,15600.0,3301.99,812.5,0,0,10,0,10,WhatsApp,si
+CR-00104,José Flores Reyes,Trujillo,Crédito Prendario,1800.0,1196.72,375.0,47,2,9,2,13,WhatsApp,si
+CR-00105,Milagros Díaz Torres,La Esperanza,Crédito Prendario,7400.0,2245.29,1541.67,49,2,8,2,12,WhatsApp,si
+CR-00106,Raúl Sánchez Vásquez,Moche,Crédito Agrícola,6800.0,1627.17,708.33,23,1,8,0,18,Visita,no
+CR-00107,Gloria Sánchez Alvarado,Chepén,Crédito Prendario,7000.0,2734.52,1458.33,25,1,7,0,6,SMS,si
+CR-00108,Carmen Castillo Mendoza,Pacasmayo,Crédito Agrícola,22400.0,7521.66,2333.33,76,3,4,0,4,WhatsApp,si
+CR-00109,Milagros Huamán Chávez,Huanchaco,Crédito Prendario,4000.0,2108.79,833.33,52,2,9,2,4,Visita,si
+CR-00110,Gloria Flores Torres,Laredo,Crédito Mype,29700.0,14150.9,1546.88,98,4,3,2,14,WhatsApp,si
+CR-00111,Sofía Rojas Paredes,Trujillo,Crédito Agrícola,4100.0,1237.43,427.08,100,4,6,3,14,Llamada,no
+CR-00112,Gloria Mendoza Rodríguez,Víctor Larco,Crédito Prendario,4300.0,996.35,895.83,26,1,8,0,22,Visita,si
+CR-00113,Raúl Chávez Huamán,Trujillo,Crédito Prendario,4400.0,2167.64,916.67,30,1,8,1,25,SMS,si
+CR-00114,Elena Flores Rojas,El Porvenir,Crédito Mype,21800.0,11587.3,1135.42,9,1,12,0,29,SMS,no
+CR-00115,Milagros Chávez García,Chepén,Crédito Prendario,1500.0,627.56,312.5,0,0,11,0,2,Visita,si
+CR-00116,Pedro García García,La Esperanza,Crédito Agrícola,2500.0,1795.88,260.42,164,6,2,1,9,WhatsApp,no
+CR-00117,Jorge Mendoza Huamán,El Porvenir,Crédito Mype,40700.0,11913.11,2119.79,50,2,8,0,23,Visita,si
+CR-00118,Pedro Paredes Vásquez,Florencia de Mora,Crédito Agrícola,20900.0,16131.71,2177.08,10,1,12,1,30,Visita,no
+CR-00119,Gloria Alvarado Díaz,El Porvenir,Crédito Consumo,8000.0,1917.22,555.56,180,6,0,3,26,Llamada,no
+CR-00120,Flor Alvarado Sánchez,Florencia de Mora,Crédito Consumo,17600.0,16031.23,1222.22,12,1,11,0,2,Llamada,no
+CR-00121,Ana Díaz Rodríguez,Moche,Crédito Consumo,16800.0,14804.41,1166.67,113,4,5,2,16,SMS,si
+CR-00122,Elena García García,Trujillo,Crédito Mype,24400.0,22664.17,1270.83,228,8,2,5,9,Visita,no
+CR-00123,Carmen Castillo García,Chepén,Crédito Consumo,15400.0,9211.78,1069.44,59,2,5,0,30,Visita,si
+CR-00124,Rosa Sánchez Morales,Pacasmayo,Crédito Agrícola,8700.0,7469.94,906.25,21,1,10,1,17,WhatsApp,no
+CR-00125,Teresa Díaz Mendoza,La Esperanza,Crédito Consumo,14700.0,10753.73,1020.83,0,0,9,0,16,SMS,si
+CR-00126,José Flores Gutiérrez,Víctor Larco,Crédito Mype,25300.0,15114.19,1317.71,42,2,7,0,23,WhatsApp,no
+CR-00127,Flor Morales Mendoza,El Porvenir,Crédito Agrícola,5700.0,3908.92,593.75,21,1,7,1,2,Visita,si
+CR-00128,Patricia Paredes Morales,Florencia de Mora,Crédito Consumo,1800.0,1440.72,125.0,0,0,12,0,1,Llamada,no
+CR-00129,Patricia Cruz Reyes,Huanchaco,Crédito Mype,52400.0,36735.36,2729.17,0,0,11,0,5,Visita,no
+CR-00130,Raúl Huamán Mendoza,Chepén,Crédito Agrícola,27900.0,15639.15,2906.25,107,4,5,0,9,SMS,si
+CR-00131,José Cruz Rodríguez,Huanchaco,Crédito Agrícola,20500.0,14762.63,2135.42,44,2,6,1,19,Visita,no
+CR-00132,Ana García Huamán,Laredo,Crédito Mype,7300.0,3444.62,380.21,26,1,11,0,1,Llamada,si
+CR-00133,Sofía Gutiérrez Gutiérrez,Laredo,Crédito Agrícola,12100.0,2878.59,1260.42,0,0,12,0,24,WhatsApp,no
+CR-00134,Víctor Alvarado Reyes,Chepén,Crédito Agrícola,13100.0,6063.07,1364.58,4,1,7,0,3,SMS,no
+CR-00135,María Flores Cruz,El Porvenir,Crédito Prendario,2100.0,1031.29,437.5,46,2,6,0,28,Visita,si
+CR-00136,Rosa Paredes Paredes,Florencia de Mora,Crédito Mype,49200.0,11036.99,2562.5,206,7,0,5,28,SMS,no
+CR-00137,Pedro Morales Quispe,Huanchaco,Crédito Consumo,16100.0,9151.77,1118.06,0,0,9,0,17,SMS,no
+CR-00138,Gloria Díaz Díaz,Pacasmayo,Crédito Consumo,12600.0,11155.26,875.0,23,1,11,1,2,Llamada,no
+CR-00139,María Díaz Alvarado,Trujillo,Crédito Mype,28600.0,12581.66,1489.58,29,1,10,0,26,WhatsApp,no
+CR-00140,Rosa Ramírez Castillo,Chepén,Crédito Agrícola,6600.0,4672.83,687.5,42,2,9,1,8,Llamada,no
+CR-00141,Hugo Huamán Chávez,Pacasmayo,Crédito Mype,31600.0,26023.33,1645.83,140,5,1,4,1,WhatsApp,si
+CR-00142,Milagros Paredes Torres,Florencia de Mora,Crédito Agrícola,20200.0,7570.57,2104.17,21,1,6,1,15,Llamada,no
+CR-00143,Víctor Cruz Castillo,Huanchaco,Crédito Prendario,2700.0,2417.23,562.5,0,0,11,0,19,Llamada,si
+CR-00144,José Alvarado Paredes,La Esperanza,Crédito Agrícola,26100.0,18544.38,2718.75,165,6,2,1,10,Llamada,no
+CR-00145,Raúl Vásquez Mendoza,Huanchaco,Crédito Agrícola,14600.0,12327.39,1520.83,0,0,12,0,29,SMS,si
+CR-00146,Rosa Reyes Alvarado,Laredo,Crédito Consumo,10500.0,5921.54,729.17,10,1,10,0,30,Llamada,si
+CR-00147,Víctor Torres Paredes,Trujillo,Crédito Agrícola,3400.0,2512.54,354.17,57,2,10,2,27,WhatsApp,no
+CR-00148,José Paredes Torres,La Esperanza,Crédito Agrícola,22400.0,8447.21,2333.33,13,1,7,0,12,Visita,no
+CR-00149,José Chávez Paredes,Huanchaco,Crédito Agrícola,25100.0,12112.48,2614.58,35,2,6,1,24,Llamada,si
+CR-00150,Gloria Cruz García,Pacasmayo,Crédito Prendario,4300.0,3938.9,895.83,0,0,11,0,28,Llamada,si
+CR-00151,Teresa Chávez Alvarado,Chepén,Crédito Agrícola,28100.0,19981.98,2927.08,20,1,11,1,17,Visita,no
+CR-00152,Hugo Quispe Huamán,Laredo,Crédito Agrícola,15300.0,14344.09,1593.75,4,1,10,1,8,Llamada,no
+CR-00153,César Vásquez Rodríguez,Pacasmayo,Crédito Prendario,1800.0,860.82,375.0,57,2,8,0,30,WhatsApp,si
+CR-00154,Gloria Huamán Morales,Trujillo,Crédito Consumo,1400.0,1000.62,97.22,23,1,7,1,22,Llamada,no
+CR-00155,Diego Gutiérrez Ramírez,Pacasmayo,Crédito Agrícola,29900.0,17677.53,3114.58,6,1,10,1,15,Llamada,no
+CR-00156,Flor Morales Chávez,Laredo,Crédito Agrícola,17600.0,13751.76,1833.33,159,6,2,1,11,SMS,no
+CR-00157,Luis Torres Flores,Huanchaco,Crédito Prendario,7200.0,4709.52,1500.0,25,1,7,1,29,Visita,si
+CR-00158,Carmen García Sánchez,Pacasmayo,Crédito Agrícola,22900.0,18079.78,2385.42,78,3,8,2,23,Llamada,si
+CR-00159,César García Quispe,Chepén,Crédito Consumo,13100.0,11929.27,909.72,23,1,9,0,29,Llamada,no
+CR-00160,Rosa Rojas Vásquez,Chepén,Crédito Prendario,4100.0,3281.67,854.17,162,6,1,0,23,WhatsApp,si
+CR-00161,Jorge Torres Rodríguez,Trujillo,Crédito Consumo,8900.0,2863.99,618.06,125,5,4,3,9,WhatsApp,no
+CR-00162,Carmen Castillo Sánchez,Huanchaco,Crédito Agrícola,10000.0,2081.75,1041.67,16,1,8,1,5,Visita,no
+CR-00163,Julio Reyes Díaz,Chepén,Crédito Consumo,1300.0,906.32,90.28,22,1,7,0,10,WhatsApp,no
+CR-00164,Patricia Vásquez Cruz,Florencia de Mora,Crédito Mype,13500.0,11401.3,703.12,8,1,7,1,30,SMS,no
+CR-00165,Miguel Mendoza Reyes,Chepén,Crédito Mype,17900.0,12178.01,932.29,22,1,6,1,29,SMS,no
+CR-00166,Hugo Huamán Gutiérrez,Moche,Crédito Agrícola,12300.0,9647.67,1281.25,182,7,0,3,22,Visita,no
+CR-00167,Sofía Alvarado Gutiérrez,La Esperanza,Crédito Consumo,15500.0,6816.03,1076.39,56,2,5,2,29,WhatsApp,si
+CR-00168,César Castillo Rojas,Laredo,Crédito Consumo,11900.0,9967.57,826.39,17,1,10,0,2,Visita,no
+CR-00169,Miguel Quispe Reyes,Florencia de Mora,Crédito Prendario,1500.0,957.65,312.5,48,2,8,2,26,WhatsApp,si
+CR-00170,Rosa Morales Rodríguez,Florencia de Mora,Crédito Consumo,12000.0,10992.39,833.33,3,1,11,0,13,Llamada,no
+CR-00171,Rosa Paredes García,Huanchaco,Crédito Prendario,3300.0,928.95,687.5,30,1,9,1,3,Llamada,si
+CR-00172,Sofía Paredes Díaz,Chepén,Crédito Prendario,4500.0,1818.48,937.5,1,1,7,1,12,Llamada,si
+CR-00173,Luis Díaz Huamán,Trujillo,Crédito Consumo,9800.0,8169.86,680.56,29,1,11,0,7,Llamada,si
+CR-00174,Patricia Cruz Vásquez,Chepén,Crédito Mype,28400.0,12665.9,1479.17,76,3,9,0,6,WhatsApp,si
+CR-00175,Elena Vásquez Torres,El Porvenir,Crédito Agrícola,8600.0,2259.24,895.83,49,2,9,2,21,Llamada,no
+CR-00176,Diego Morales Rodríguez,Huanchaco,Crédito Agrícola,3700.0,882.86,385.42,119,4,3,3,30,Visita,no
+CR-00177,Pedro Vásquez Torres,El Porvenir,Crédito Agrícola,21500.0,13841.82,2239.58,6,1,11,1,25,Visita,no
+CR-00178,Lucía Chávez Flores,Laredo,Crédito Prendario,7800.0,4149.87,1625.0,0,0,10,0,27,SMS,si
+CR-00179,Julio Huamán Rodríguez,La Esperanza,Crédito Mype,33500.0,10986.17,1744.79,0,0,12,0,6,Llamada,no
+CR-00180,Hugo Morales Vásquez,Pacasmayo,Crédito Agrícola,10500.0,2816.67,1093.75,7,1,12,0,22,Llamada,no
+CR-00181,Miguel Ramírez Gutiérrez,Chepén,Crédito Consumo,11500.0,4236.19,798.61,18,1,12,1,28,Visita,no
+CR-00182,Teresa Vásquez García,Trujillo,Crédito Prendario,6200.0,4400.92,1291.67,11,1,10,0,8,Visita,si
+CR-00183,Diego Chávez Ramírez,Laredo,Crédito Agrícola,6300.0,4426.39,656.25,27,1,7,1,30,Visita,no
+CR-00184,Gloria Rodríguez Flores,Trujillo,Crédito Agrícola,6700.0,2745.42,697.92,30,1,10,0,24,WhatsApp,no
+CR-00185,Julio Huamán Morales,Laredo,Crédito Consumo,2300.0,1924.47,159.72,15,1,9,0,0,WhatsApp,no
+CR-00186,Jorge Sánchez Sánchez,Chepén,Crédito Prendario,600.0,331.76,125.0,10,1,7,1,4,Llamada,si
+CR-00187,José Reyes Cruz,Pacasmayo,Crédito Consumo,12800.0,9736.79,888.89,26,1,9,0,7,Llamada,no
+CR-00188,Patricia Paredes Morales,Trujillo,Crédito Mype,40300.0,12345.33,2098.96,33,2,9,1,20,WhatsApp,no
+CR-00189,Pedro Castillo Rojas,Laredo,Crédito Mype,31500.0,19673.88,1640.62,97,4,3,0,8,WhatsApp,no
+CR-00190,Lucía Rojas García,Moche,Crédito Agrícola,27200.0,14344.4,2833.33,0,0,8,0,29,WhatsApp,no
+CR-00191,Hugo García Flores,Chepén,Crédito Consumo,11800.0,3692.43,819.44,48,2,7,1,23,SMS,si
+CR-00192,Elena Quispe Ramírez,Laredo,Crédito Prendario,2200.0,1964.57,458.33,50,2,9,1,15,Llamada,si
+CR-00193,Rosa Huamán Torres,Víctor Larco,Crédito Agrícola,17500.0,11697.52,1822.92,19,1,12,1,22,WhatsApp,si
+CR-00194,Carlos Flores Quispe,Florencia de Mora,Crédito Consumo,8200.0,2969.07,569.44,13,1,9,1,14,SMS,no
+CR-00195,Carlos Quispe Flores,Huanchaco,Crédito Mype,10600.0,8580.24,552.08,18,1,11,1,17,WhatsApp,no
+CR-00196,Teresa Alvarado Mendoza,Moche,Crédito Agrícola,26200.0,24647.51,2729.17,25,1,6,0,5,Llamada,no
+CR-00197,Rosa Gutiérrez Ramírez,Víctor Larco,Crédito Agrícola,15800.0,14260.28,1645.83,14,1,9,1,23,Visita,no
+CR-00198,Julio Reyes Chávez,Laredo,Crédito Consumo,9700.0,8229.31,673.61,0,0,10,0,10,Visita,no
+CR-00199,Patricia Chávez Torres,Laredo,Crédito Consumo,6700.0,3333.86,465.28,46,2,7,0,30,Llamada,no
+CR-00200,Teresa Paredes Mendoza,Chepén,Crédito Agrícola,24900.0,16316.94,2593.75,0,0,9,0,0,Visita,no

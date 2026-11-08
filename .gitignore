@@ -1,0 +1,20 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ADK local sessions
+agente_cobranza/.adk/
+.adk/
+
+# Editor and operating-system files
+.DS_Store
+.claude/
+.vscode/
+.idea/
